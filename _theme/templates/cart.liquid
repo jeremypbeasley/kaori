@@ -6,10 +6,11 @@
     - Shopify Payments - http://docs.shopify.com/manual/more/shopify-payments/testing-shopify-payments
 
 {% endcomment %}
-
+<div class="row">
+  <div class="column col-xs-12">
 {% if cart.item_count > 0 %}
 
-  <h1>{{ 'cart.general.title' | t }}</h1>
+  <p>{{ 'cart.general.title' | t }}</p>
   <form action="/cart" method="post" novalidate class="cart table-wrap">
     <table class="cart-table full table--responsive">
       <thead class="cart__row cart__header-labels">
@@ -124,7 +125,8 @@
   {% comment %}
     The cart is empty
   {% endcomment %}
-  <h2>{{ 'cart.general.title' | t }}</h2>
-  <p>{{ 'cart.general.empty' | t }}</p>
-  <p>{{ 'cart.general.continue_browsing_html' | t }}</p>
+  <p>Oh, there's nothing in your cart just yet.</p>
+  <p>Go check out our products <a href="/">here</a>.</p>
 {% endif %}
+</div>
+</div>

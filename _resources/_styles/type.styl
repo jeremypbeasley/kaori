@@ -4,7 +4,7 @@ html
 
 body, p
 	font-size 1rem
-	
+
 @media (min-width: 62em) {
   body, p {
     font-size: 1rem
@@ -35,27 +35,26 @@ i {
 }
 a {
 	text-decoration: none;
-	// border-bottom: 1px solid hsla(255,100%,100%,.2);
-	// border-bottom: 1px solid hsla(0,0%,0%,.2);
+	border-bottom: 1px solid color-text;
 	color: color-text;
-	// padding-bottom: .1rem;
+	padding-bottom: .05rem;
 	position: relative;
 }
 // a:hover {
 // 	border-color: hsla(0,0%,0%,1);
 // }
-a:after {
-	content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0%;
-  border-bottom: 1px solid hsla(0,0%,0%,1);
-  transition: 0.4s;
-}
-a:hover:after {
-  width: 100%;
-}
+// a:after {
+// 	content: '';
+//   position: absolute;
+//   bottom: -4px;
+//   left: 0;
+//   width: 0%;
+//   border-bottom: 1px solid hsla(0,0%,0%,1);
+//   transition: 0.4s;
+// }
+// a:hover:after {
+//   width: 100%;
+// }
 a.NoLine {
 	border: none;
 }
@@ -70,8 +69,8 @@ hr
 	background black
 	opacity .2
 	margin 4vw 0
-	
-strong 
+
+strong
 	font-weight normal
 
 h1,h2,h3,h4,h5,h6 {
@@ -88,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
 	font-size: 2rem;
 }
-	
+
 h3 {
 	font-size: 1rem;
 	opacity: .4;
@@ -118,7 +117,7 @@ li {
 	border-radius: 3px;
 	padding: .5rem 1rem;
 	background: none;
-	
+
 }
 
 // TYPE STYLES
@@ -165,5 +164,4 @@ li {
 	.Caption {
 		font-size: .75rem
 	}
-}	
-
+}

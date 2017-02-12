@@ -16,16 +16,9 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'node_modules/jquery/dist/jquery.js',
-          'node_modules/slick-carousel/slick/slick.js',
-          'node_modules/smoothstate/jquery.smoothState.min.js',
           '_resources/_scripts/main.js'
         ],
-        dest: 'assets/master.js',
-      }
-    },
-    exec: {
-      serve: {
-        cmd: 'bundle exec jekyll serve'
+        dest: '_theme/assets/master.js',
       }
     },
     watch: {
