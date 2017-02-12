@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'GTSectraDisplayTrialLight';
+    src: url('_fonts/GTSectraDisplayTrialLight.eot');
+    src: url('_fonts/GTSectraDisplayTrialLight.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraDisplayTrialLight.woff2') format('woff2'),
+         url('_fonts/GTSectraDisplayTrialLight.woff') format('woff'),
+         url('_fonts/GTSectraDisplayTrialLight.ttf') format('truetype'),
+         url('_fonts/GTSectraDisplayTrialLight.svg#GTSectraDisplayTrialLight') format('svg');
+}
+@font-face {
+    font-family: 'GTSectraDisplayTrialLightItalic';
+    src: url('_fonts/GTSectraDisplayTrialLightItalic.eot');
+    src: url('_fonts/GTSectraDisplayTrialLightItalic.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.woff2') format('woff2'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.woff') format('woff'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.ttf') format('truetype'),
+         url('_fonts/GTSectraDisplayTrialLightItalic.svg#GTSectraDisplayTrialLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'GTSectraTrialBook';
+    src: url('_fonts/GTSectraTrialBook.eot');
+    src: url('_fonts/GTSectraTrialBook.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraTrialBook.woff2') format('woff2'),
+         url('_fonts/GTSectraTrialBook.woff') format('woff'),
+         url('_fonts/GTSectraTrialBook.ttf') format('truetype'),
+         url('_fonts/GTSectraTrialBook.svg#GTSectraTrialBook') format('svg');
+}
+@font-face {
+    font-family: 'GTSectraTrialBookItalic';
+    src: url('_fonts/GTSectraTrialBookItalic.eot');
+    src: url('_fonts/GTSectraTrialBookItalic.eot') format('embedded-opentype'),
+         url('_fonts/GTSectraTrialBookItalic.woff2') format('woff2'),
+         url('_fonts/GTSectraTrialBookItalic.woff') format('woff'),
+         url('_fonts/GTSectraTrialBookItalic.ttf') format('truetype'),
+         url('_fonts/GTSectraTrialBookItalic.svg#GTSectraTrialBookItalic') format('svg');
+}
+@font-face {
+    font-family: 'ApercuMono';
+    src: url('_fonts/ApercuMono.eot');
+    src: url('_fonts/ApercuMono.eot') format('embedded-opentype'),
+         url('_fonts/ApercuMono.woff2') format('woff2'),
+         url('_fonts/ApercuMono.woff') format('woff'),
+         url('_fonts/ApercuMono.ttf') format('truetype'),
+         url('_fonts/ApercuMono.svg#ApercuMono') format('svg');
+}

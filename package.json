@@ -1,0 +1,16 @@
+{
+  "name": "Kaori",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-remove": "^0.1.0",
+    "jquery": "latest",
+    "flexboxgrid": "5.0.0",
+    "normalize-css": "latest",
+    "velocityjs": "latest"
+  }
+}

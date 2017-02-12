@@ -1,0 +1,24 @@
+<!-- /templates/index.liquid -->
+{% comment %}
+
+  This is the homepage of your site.
+
+  More info on global variables (available on all templates):
+    - http://docs.shopify.com/themes/liquid-variables/global
+{% endcomment %}
+
+<div class="grid-uniform">
+  {% for product in collections.frontpage.products limit:10 %}
+    {% assign grid_item_width = 'large--one-third medium--one-half' %}
+    {% include 'product-grid-item' %}
+  {% else %}
+    {% unless emptyState %}
+      {{ 'theme-onboarding.css' | global_asset_url | stylesheet_tag }}
+      {% assign emptyState = true %}
+    {% endunless %}
+
+    {% include 'onboarding-featured-products' %}
+
+  {% endfor %}
+
+</div>
